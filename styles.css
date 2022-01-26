@@ -1,0 +1,49 @@
+body {
+  background-color: #222222;
+}
+@font-face {
+  font-family: norse;
+  src: url(/images/Norse-Bold.otf);
+}
+header {
+  display: flex;
+  height: 30px;
+  background-color: tomato;
+  
+}
+.relative {
+  position: relative;
+}
+.bottom_text {
+  position: absolute;
+  left: 30%;
+  color: white;
+  bottom: 1px;
+  font-size: small;
+}
+.banner_black {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 180px;
+  background-color: hsla(0, 0%, 10%, 0.63);
+  width: 100%;
+}
+.odin_text {
+  font-family: norse;
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.odin_img {
+  height: 120px;
+}
+.right_light {
+  background-color: white;
+}
+@media (max-width: 767.98px) {
+  body {
+    background-color: white;
+  }
+}
