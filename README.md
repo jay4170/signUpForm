@@ -1,2 +1,2 @@
 # signUpForm
-Sign up form to practise CSS, HTML and simple JS
+Sign up form to practice CSS, HTML and simple JS
